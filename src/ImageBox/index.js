@@ -4,15 +4,11 @@ import './index.css'
 
 export default ({
   images,
-  count,
 }) => (
   <div className="imageContainer">
     {
       images.map( card => (
-        <Image 
-          src={card} 
-          count={count}
-        />
+        <Image src={card} />
       ))
     }
   </div>

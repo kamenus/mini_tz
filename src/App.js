@@ -39,7 +39,6 @@ class App extends Component {
       <div className="App">
         <ImageBox 
           images={images}
-          count={count}
         />     
         <Counter 
           count={count}
